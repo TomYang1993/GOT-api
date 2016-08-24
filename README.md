@@ -26,6 +26,6 @@ Your next task is to create a PORO to abstract away all the ugliness inside the 
 * destroy
 * all
 
-You will need to figure out whether it should be an instance or class variable.
+You will need to figure out whether it should be an instance or class method.
 
 Good luck!
