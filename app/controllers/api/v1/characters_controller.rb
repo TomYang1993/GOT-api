@@ -20,11 +20,13 @@ class Api::V1::CharactersController < ApplicationController
 
   def update
     @character = Character.find_by(id: params[:id])
+    # binding.pry
     @character.update(
       name: params[:name],
       city: params[:city],
       house: params[:house]
     )
+    # binding.pry
     render 'update.json.jbuilder'
   end
 
